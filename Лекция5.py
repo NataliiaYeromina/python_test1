@@ -1,14 +1,25 @@
-l = [1,2,3,1,2,3,5,6,45,34,22,1,2,3,102.3,7]
-new_l = []
-for x in l:
-    if x not in new_l:
-        new_l.append(x)
-print(new_l)
+# l = [1,2,3,1,2,3,5,6,45,34,22,1,2,3,102.3,7]
+# new_l = []
+# for x in l:
+#     if x not in new_l:
+#         new_l.append(x)
+# print(new_l)
 
+#
+# s = [1,2,3]
+# s1 = []
+# for i in range(0,len(s)):
+#     s1.append(s[i])
+# print(s)
+# print(s1)
 
-# s = [2,4,5,7,2]
-# new_s = list(s)
-# print(new_s)
+ # OR
+
+# import copy
+# s = [1,2,3]
+# s1 = copy.copy(s)
+# print(s1)
+
 
 
 # s1 = [1,2,6,5,4]
@@ -47,5 +58,4 @@ print(new_l)
 #     d[a] = a * a
 #
 # print(d)
-
 
