@@ -53,7 +53,7 @@ def common_elem_onceintwostr (some_str_1,some_str_2):
 def create_email(name,domain):
     number = random.randint(100,999)
     random_name = random.choice(name)
-    random_word = ''.join(chr(randint(ord('a'), ord('z'))) for j in range(randint(5, 7)))
+    random_word = ''.join(chr(randint(ord('a'), ord('z'))) for elem in range(randint(5, 7)))
     random_domain = random.choice(domain)
     email = f"{random_name}.{number}@{random_word}.{random_domain}"
     return email
